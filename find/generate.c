@@ -21,17 +21,17 @@
 
 int main(int argc, string argv[])
 {
-    // TODO: comment me
+    // to count the number of command line arguments
     if (argc != 2 && argc != 3)
     {
         printf("Usage: ./generate n [s]\n");
         return 1;
     }
 
-    // TODO: comment me
+    // TODO: to convert first command line argument into integer
     int n = atoi(argv[1]);
 
-    // TODO: comment me
+    // something something
     if (argc == 3)
     {
         srand48((long) atoi(argv[2]));
